@@ -53,7 +53,7 @@ const aquaticAnimals = [
     // Interacciones
     const ctaButton = document.getElementById('cta-button');
     ctaButton.addEventListener('click', () => {
-        alert('¡Prepárate para explorar el fascinante mundo acuático! 🐋');
+        alert('¡Prepárate para explorar el fascinante mundo acuático con Arly! 🐋');
     });
 
     const donateBtn = document.getElementById('donate-btn');
