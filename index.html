@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorando el Mundo Acuático</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><i class="fas fa-water"></i> Maravillas Acuáticas</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#especies">Especies</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                    <li><a href="#conservacion">Conservación</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="inicio" class="hero">
+            <h2>Descubre la Vida bajo el Agua</h2>
+            <p>Explora las criaturas más fascinantes de nuestros océanos, ríos y lagos.</p>
+            <button id="cta-button">¡Empieza el Viaje!</button>
+        </section>
+
+        <section id="especies">
+            <h2><i class="fas fa-fish"></i> Especies Destacadas</h2>
+            <div class="species-grid">
+                <article class="species-card">
+                    <img src="images/delfin.jpeg" alt="Delfín">
+                    <h3>Delfines</h3>
+                    <p>Los mamíferos marinos más inteligentes, conocidos por su comportamiento juguetón.</p>
+                </article>
+                <article class="species-card">
+                    <img src="images/tiburon.jpg" alt="Tiburón">
+                    <h3>Tiburones</h3>
+                    <p>Depredadores esenciales para el equilibrio de los ecosistemas marinos.</p>
+                </article>
+                <article class="species-card">
+                    <img src="images/coral.jpeg" alt="Coral">
+                    <h3>Arrecifes</h3>
+                    <p>Los "bosques tropicales del mar", hogar del 25% de la vida marina.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="galeria" class="gallery-section">
+            <h2><i class="fas fa-images"></i> Galería</h2>
+            <div class="gallery-container" id="image-gallery"></div>
+        </section>
+
+        <section id="conservacion">
+            <h2><i class="fas fa-hand-holding-water"></i> Conservación</h2>
+            <div class="conservation-info">
+                <p>Los océanos cubren el 71% de la Tierra, pero están en peligro por:</p>
+                <ul>
+                    <li>Contaminación por plásticos</li>
+                    <li>Sobrepesca</li>
+                    <li>Cambio climático</li>
+                </ul>
+                <button id="donate-btn">Apoya la Conservación</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2023 Mundo Acuático | Todos los derechos reservados</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
